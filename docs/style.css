@@ -68,12 +68,44 @@ footer a {
 footer a:hover {
   text-decoration: underline;
 }
-.hero-image {
+.hero-header {
   width: 100%;
   height: 350px;
   background-image: url("BLOG.png");
   background-size: cover;
   background-position: center;
-  background-repeat: no-repeat;
-  border-bottom: 2px solid #00ffcc;
+  position: relative;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+}
+
+/* dark layer over image */
+.overlay {
+  background: rgba(0, 0, 0, 0.6);
+  padding: 20px;
+  width: 100%;
+}
+
+/* text styling */
+.hero-header h1 {
+  color: #00ffcc;
+  margin: 0;
+  font-size: 40px;
+}
+
+.hero-header p {
+  margin: 10px 0;
+  color: white;
+}
+
+.hero-header nav a {
+  color: white;
+  margin: 0 10px;
+  text-decoration: none;
+}
+
+.hero-header nav a:hover {
+  color: #00ffcc;
 }
