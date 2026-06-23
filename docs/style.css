@@ -59,3 +59,12 @@ footer {
   background: #0f172a;
   margin-top: 20px;
 }
+footer a {
+  color: #00ffcc;
+  text-decoration: none;
+  margin: 0 10px;
+}
+
+footer a:hover {
+  text-decoration: underline;
+}
